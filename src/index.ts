@@ -5,6 +5,16 @@
 // tsc --watch (the name of the file)
 
 // my first tsc code
-// type of number
-let id:number = 1;
-console.log(id);
+// type
+let num: number;
+let str: string;
+let bool: boolean;
+let x: any;
+
+
+// these variables wont allow any type thats not the type assigned to them above to be used for them.
+// eg:
+num = 8 //is cool.
+// num = 'hello'  //will throw an error
+str = 'string'  //is cool
+//str = 9 //will throw err.
