@@ -1,7 +1,7 @@
 // initialize a tsc config file
 // tsc --init
 
-// to watch a tsc file
+// to watch  tsc files
 // tsc --watch (the name of the file)
 
 // my first tsc code
